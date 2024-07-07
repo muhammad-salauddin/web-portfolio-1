@@ -1,20 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 51px 226px;
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Multiple */
+.header {
+    background-color: #FFF8F3;
+}
+.header-img {
+    background-image: url("../images/developer.png"), url("../images/header_bg.png"); 
+    background-repeat: no-repeat;
+    background-position: center left, bottom right;
+    margin-left: 20px; 
+}
+.header-img > p {
+    display: none;
+}
+.btn-orange {
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px 18px 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer; 
+}
+.btn-white {
+    color: #FD6E0A;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px 18px 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer; 
+    border: 1px solid #FD6E0A;
 }
 .color-dark2 {
     color: #474747;
 }
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 51px 256px; */
+}
 .nav-title {
     font-weight: 800;
     font-size: 45px;
+    margin-top: 51px;
+    margin-left: 256px;
 }
 nav ul {
     display: flex;
     align-items: center;
+    margin-top: 50px;
+    margin-right: 230px;
 }
 nav ul li {
     list-style: none;
@@ -23,13 +65,37 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
 }
-.btn-orange {
-    background-color: #FD6E0A;
-    color: white;
+
+/* content */
+.top-banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 38px 0px 230px;
+
+}
+.content-subtitle {
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 297px;
+    margin-bottom: 5px;
+}
+.content-title {
+    font-size: 85px;
     font-weight: bold;
-    font-size: 20px;
-    padding: 18px 35px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer; 
+    margin-bottom: 20px;
+}
+.content-txt {
+    font-size: 18px;
+    font-weight: normal;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.btn-dwn-cv {
+    margin-right: 30px;
+}
+.banner-img {
+    width: 584px;
+    margin-top: 161px;
+    margin-bottom: 0px;
+    margin-right: 38px;
 }
