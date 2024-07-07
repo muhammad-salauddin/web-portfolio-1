@@ -101,6 +101,9 @@ nav ul li a {
     margin-right: 38px;
 }
 .about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     max-width: 1140px;
     max-height: 550px;
     margin: 0 auto;
@@ -133,4 +136,33 @@ nav ul li a {
     font-size: 20px;
     font-weight: bold;
     color: #474747;
+}
+
+/* section 3 */
+.skill-lists {
+    display: flex;
+    justify-content: center ;
+}
+.skill-box {
+    width: 260px;
+    height: 370px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    margin: 24px;
+}
+.skill-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #181818;
+}
+.skill-description {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #757575;
+    padding-right: 3px; 
+}
+.resume {
+    margin-top: 130px;
 }
