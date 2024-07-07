@@ -163,6 +163,69 @@ nav ul li a {
     color: #757575;
     padding-right: 3px; 
 }
+
+/* Resume  */ 
+
 .resume {
     margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.resume-content {
+    display: flex;
+    justify-content: space-around;
+}
+.column {
+    margin-left: 230px;
+    margin-bottom: 50px;
+}
+.column2 {
+    margin-right: 277px;
+    margin-bottom: 50px;
+}
+.column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.part-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.part-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.part-text {
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 30px;
+    max-width: 511px;
+}
+hr {
+    width: 558px;
+    margin-bottom: 30px;
+}
+.btn-resume-cont {
+    display: flex;
+    justify-content: center;
+}
+.btn-resume {
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px 18px 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer; 
+    width: 200px;
+    height: 64px;
+    margin-bottom: 113px;
 }
