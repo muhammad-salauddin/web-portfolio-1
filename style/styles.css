@@ -179,6 +179,7 @@ nav ul li a {
 .column {
     margin-left: 230px;
     margin-bottom: 50px;
+    margin-right: 70px;
 }
 .column2 {
     margin-right: 277px;
@@ -270,7 +271,8 @@ footer {
     width: 461px;
     height: 64px;
     border-radius: 5px;
-    color: white;
+    color: #757575;
+    font-size: 16px;
     border: none;
     padding: 18px 30px;
     margin-bottom: 24px;
@@ -279,7 +281,8 @@ footer {
     width: 461px;
     height: 180px;
     border-radius: 5px;
-    color: white;
+    color: #757575;
+    font-size: 16px;
     border: none;
     padding: 18px 30px;
     margin-bottom: 24px;
